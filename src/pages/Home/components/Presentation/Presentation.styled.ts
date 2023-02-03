@@ -1,8 +1,11 @@
 import styled from 'styled-components';
-import { yellow_100_value, font_size_300_value, font_size_200_value } from '../../../../styles';
+import { yellow_100_value, font_size_300_value, font_size_200_value, font_size_400_value } from '../../../../styles';
 
 export const Presentation = styled.section`
   p {
+    :first-child {
+      font-size: ${font_size_400_value};
+    }
     font-size: ${font_size_300_value};
     span {
       font-weight: bold;

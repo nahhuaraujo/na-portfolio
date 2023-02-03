@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import NLogo from '../../../../assets/Logo_N_00.png';
+import NLogo from '../../../../assets/Logo_N_01.png';
 import * as S from './Logo.styled';
 
 const Logo = () => {

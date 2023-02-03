@@ -5,9 +5,9 @@ const SkyGalProject = () => {
   return (
     <S.SkyGalProject>
       <Caption align='right'>
-        <span>SkyGal</span> se trata de una colaboración que realicé con <span>Carolina Muguruza</span>, fotógrafa
-        amateur y compañera de vida, quien supo capturar <span>bellísimas imágenes del cielo</span> para dar forma a
-        ésta aplicación dedicada a <span>compartir</span> sus fotos de un <span>modo virtual</span>.
+        <span>SkyGal</span> se trata de una colaboración que realicé con <span>Carolina Muguruza</span>,{' '}
+        <i>fotógrafa amateur y compañera de vida</i>, quien supo capturar <span>bellísimas imágenes del cielo</span>{' '}
+        para dar forma a ésta aplicación dedicada a <span>compartir</span> sus fotos de un <span>modo virtual</span>.
       </Caption>
       <Illustration>
         <svg width='300' height='220' viewBox='0 0 300 220' fill='none' xmlns='http://www.w3.org/2000/svg'>

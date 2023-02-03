@@ -27,6 +27,9 @@ export const caption_style = css`
   span {
     font-weight: bold;
   }
+  i {
+    font-style: italic;
+  }
 `;
 
 export const section_style = css`

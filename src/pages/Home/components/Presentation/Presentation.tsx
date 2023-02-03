@@ -4,6 +4,9 @@ const Presentation = () => {
   return (
     <S.Presentation>
       <p>
+        <span>Nahuel Araujo</span>
+      </p>
+      <p>
         Desarrollador <span>ReactJS</span>
       </p>
       <p>
@@ -12,7 +15,7 @@ const Presentation = () => {
       <span>Pasión por el código y el diseño</span>
       <button
         onClick={() => {
-          console.log('Google forms');
+          console.log('To Google forms!');
         }}
       >
         Contactame
