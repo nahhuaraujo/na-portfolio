@@ -1,12 +1,12 @@
-import * as S from './JavaExperience.styled';
 import { Caption, Illustration } from '../../../../components';
+import * as S from './JavaExperience.styled';
 
 const JavaExperience = () => {
   return (
     <S.JavaExperience>
       <Caption align='right'>
         Comencé mi carrera como desarrollador del lado del <span>backend</span>, acumulando{' '}
-        <span>1 año y 7 meses de experiencia</span> con <span>Java</span> como lenguaje y <span>OOP</span> como
+        <span>1 año y 7 meses de experiencia</span> utilizando <span>Java</span> como lenguaje y <span>OOP</span> como
         paradigma.
       </Caption>
       <Illustration>
