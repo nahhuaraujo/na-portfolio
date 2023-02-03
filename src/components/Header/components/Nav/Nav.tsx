@@ -1,4 +1,4 @@
-import { Navlink } from './components';
+import { Navlink, DownloadCVButton } from './components';
 import * as S from './Nav.styled';
 
 const Nav = () => {
@@ -7,7 +7,7 @@ const Nav = () => {
       <Navlink to='/sobre-mi'>Sobre mí</Navlink>
       <Navlink to='/experiencia'>Experiencia</Navlink>
       <Navlink to='/proyectos'>Proyectos</Navlink>
-      <Navlink to='/contacto'>Contacto</Navlink>
+      <DownloadCVButton />
     </S.Nav>
   );
 };

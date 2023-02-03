@@ -12,7 +12,7 @@ const App = () => {
         <Route path='/sobre-mi' element={<About />} />
         <Route path='/experiencia' element={<div>Experiencia</div>} />
         <Route path='/proyectos' element={<div>Proyectos</div>} />
-        <Route path='/contacto' element={<div>Contacto</div>} />
+        <Route path='/cv' element={<div>CV</div>} />
       </Routes>
       <Footer />
     </S.App>

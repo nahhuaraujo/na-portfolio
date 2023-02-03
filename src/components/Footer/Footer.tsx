@@ -1,7 +1,7 @@
 import * as S from './Footer.styled';
 
 const Footer = () => {
-  return <S.Footer>Desarrollado por Nahuel Araujo</S.Footer>;
+  return <S.Footer>Sobre mí - Experiencia - Proyectos - Contacto</S.Footer>;
 };
 
 export default Footer;

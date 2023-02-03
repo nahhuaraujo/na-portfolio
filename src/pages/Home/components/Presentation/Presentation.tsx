@@ -1,8 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import * as S from './Presentation.styled';
 
 const Presentation = () => {
-  const navigate = useNavigate();
   return (
     <S.Presentation>
       <p>
@@ -11,12 +9,13 @@ const Presentation = () => {
       <p>
         Diseñador <span>UX/UI</span>
       </p>
+      <span>Pasión por el código y el diseño</span>
       <button
         onClick={() => {
-          navigate('/contacto');
+          console.log('Google forms');
         }}
       >
-        Contactar
+        Contactame
       </button>
     </S.Presentation>
   );

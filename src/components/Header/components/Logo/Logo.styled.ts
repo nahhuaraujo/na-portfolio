@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-export const Logo = styled.div`
-  width: min-content;
+export const Logo = styled.img`
   cursor: pointer;
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
-  padding: 1rem;
+  padding: 4rem 1rem 1rem;
   text-align: center;
 `;
