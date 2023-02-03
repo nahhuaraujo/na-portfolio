@@ -24,7 +24,6 @@ export const navlink_style = css`
 export const caption_style = css`
   width: 50%;
   font-size: ${font_size_200_value};
-  text-align: right;
   span {
     font-weight: bold;
   }
@@ -35,4 +34,13 @@ export const section_style = css`
   justify-content: center;
   align-items: center;
   gap: 4rem;
+`;
+
+export const page_style = css`
+  padding: 6rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
 `;

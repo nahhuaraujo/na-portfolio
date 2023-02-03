@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import * as S from './App.styled';
 import { Footer, Header } from './components';
-import { About, Home } from './pages';
+import { About, Experience, Home, Projects } from './pages';
 
 const App = () => {
   return (
@@ -10,9 +10,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sobre-mi' element={<About />} />
-        <Route path='/experiencia' element={<div>Experiencia</div>} />
-        <Route path='/proyectos' element={<div>Proyectos</div>} />
-        <Route path='/cv' element={<div>CV</div>} />
+        <Route path='/experiencia' element={<Experience />} />
+        <Route path='/proyectos' element={<Projects />} />
       </Routes>
       <Footer />
     </S.App>

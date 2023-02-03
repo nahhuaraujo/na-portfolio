@@ -8,7 +8,7 @@ const Logo = () => {
     <S.Logo
       src={NLogo}
       alt='N'
-      width={50}
+      width={80}
       onClick={() => {
         navigate('/');
       }}
