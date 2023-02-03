@@ -3,7 +3,7 @@ import * as S from './DownloadCVButton.styled';
 const DownloadCVButton = () => {
   return (
     <S.DownloadCVButton
-      href='./../../../../../../assets/Nahuel Araujo - CV 2023.pdf'
+      href={'https://drive.google.com/file/d/1dc7q8P8rIZnej4gn7-15Mt_9gGLBHkIk/view?usp=share_link'}
       role='button'
       download
       target='_blank'

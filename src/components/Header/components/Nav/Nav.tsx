@@ -4,6 +4,7 @@ import * as S from './Nav.styled';
 const Nav = () => {
   return (
     <S.Nav>
+      <Navlink to='/'>Home</Navlink>
       <Navlink to='/sobre-mi'>Sobre mí</Navlink>
       <Navlink to='/experiencia'>Experiencia</Navlink>
       <Navlink to='/proyectos'>Proyectos</Navlink>
