@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
+  width: 100%;
   padding: 1rem 2rem;
   background-color: black;
   display: flex;
   gap: 2rem;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  top: 0;
 `;
 
 export const Backdrop = styled.div`
