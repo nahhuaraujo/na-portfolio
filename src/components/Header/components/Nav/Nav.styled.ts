@@ -1,18 +1,20 @@
 import styled from 'styled-components';
+import { drawer_style } from '../../../../styles';
 
-export const Nav = styled.nav`
+interface IProps {
+  isOpen: boolean;
+}
+export const Nav = styled.nav<IProps>`
   display: flex;
   align-items: center;
+  z-index: 100;
 
   > * {
     min-width: fit-content;
   }
-  /* @media (width < 1024px) {
-    width: 50vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: -200%;
-    transition: 300ms;
-  } */
+
+  @media (width < 1024px) {
+    display: none;
+    ${({ isOpen }) => isOpen && `${drawer_style}`};
+  }
 `;

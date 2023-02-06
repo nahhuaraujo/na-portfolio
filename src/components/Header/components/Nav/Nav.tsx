@@ -1,13 +1,25 @@
-import { Navlink, DownloadCVButton } from './components';
+import { DownloadCVButton, Navlink } from './components';
 import * as S from './Nav.styled';
 
-const Nav = () => {
+interface IProps {
+  isOpen: boolean;
+  toggleDrawer: () => void;
+}
+const Nav = ({ isOpen, toggleDrawer }: IProps) => {
   return (
-    <S.Nav>
-      <Navlink to='/'>Home</Navlink>
-      <Navlink to='/sobre-mi'>Sobre mí</Navlink>
-      <Navlink to='/experiencia'>Experiencia</Navlink>
-      <Navlink to='/proyectos'>Proyectos</Navlink>
+    <S.Nav isOpen={isOpen}>
+      <Navlink toggleDrawer={toggleDrawer} to='/'>
+        Inicio
+      </Navlink>
+      <Navlink toggleDrawer={toggleDrawer} to='/sobre-mi'>
+        Sobre mí
+      </Navlink>
+      <Navlink toggleDrawer={toggleDrawer} to='/experiencia'>
+        Experiencia
+      </Navlink>
+      <Navlink toggleDrawer={toggleDrawer} to='/proyectos'>
+        Proyectos
+      </Navlink>
       <DownloadCVButton />
     </S.Nav>
   );

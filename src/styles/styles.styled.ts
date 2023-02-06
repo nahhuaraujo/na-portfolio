@@ -56,3 +56,16 @@ export const page_style = css`
   justify-content: center;
   align-items: center;
 `;
+
+export const drawer_style = css`
+  display: flex;
+  width: 250px;
+  height: 100vh;
+  padding: 1rem;
+  background-color: black;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+`;

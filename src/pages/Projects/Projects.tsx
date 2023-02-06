@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
+import { BackTogetherProject, SkyGalProject } from './components';
 import * as S from './Projects.styled';
-import { SkyGalProject, BackTogetherProject } from './components';
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <S.Projects>
       <SkyGalProject />

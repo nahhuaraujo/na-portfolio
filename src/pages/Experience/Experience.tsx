@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
+import { FrontendLearning, JavaExperience, ReactExperience, UILearning } from './components';
 import * as S from './Experience.styled';
-import { JavaExperience, FrontendLearning, UILearning, ReactExperience } from './components';
 
 const Experience = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <S.Experience>
       <JavaExperience />
