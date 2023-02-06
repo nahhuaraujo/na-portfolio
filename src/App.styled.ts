@@ -5,5 +5,5 @@ export const App = styled.div`
   min-height: 100dvh;
   padding-top: 7rem;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
 `;
