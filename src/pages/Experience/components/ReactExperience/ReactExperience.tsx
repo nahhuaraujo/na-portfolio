@@ -14,8 +14,8 @@ const ReactExperience = () => {
       </Illustration>
       <Caption>
         Hoy en día, ya con <span>2 años y 7 meses de experiencia</span> del lado del front, me dedico al{' '}
-        <span>desarrollo de aplicaciones web</span>, utilizando <span>Atomic Design</span> como sistema de diseño y,
-        últimamente, implementando <span>Design Thinking</span> como metodología de trabajo.
+        <span>desarrollo de aplicaciones web</span> utilizando <span>ReactJS</span> para crear interfaces de usuario, y{' '}
+        <span>Atomic Design</span> como sistema de diseño.
       </Caption>
     </S.ReactExperience>
   );
