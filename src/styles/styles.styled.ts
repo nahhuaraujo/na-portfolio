@@ -30,6 +30,11 @@ export const caption_style = css`
   i {
     font-style: italic;
   }
+
+  @media (width < 1024px) {
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const section_style = css`
@@ -37,12 +42,16 @@ export const section_style = css`
   justify-content: center;
   align-items: center;
   gap: 4rem;
+
+  @media (width < 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const page_style = css`
-  padding: 6rem 1rem 0;
+  width: 100vw;
+  padding: 4rem 1rem 0;
   display: flex;
-  flex-direction: column;
   gap: 6rem;
   justify-content: center;
   align-items: center;

@@ -1,9 +1,12 @@
 import styled from 'styled-components';
+import { page_style } from '../../styles';
 
 export const Home = styled.main`
-  padding: 0 1rem;
-  display: flex;
-  gap: 4rem;
-  justify-content: center;
-  align-items: center;
+  ${page_style};
+
+  @media (width < 1024px) {
+    gap: 2rem;
+    text-align: center;
+    flex-direction: column;
+  }
 `;
