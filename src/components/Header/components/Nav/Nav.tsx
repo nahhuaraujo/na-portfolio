@@ -3,21 +3,21 @@ import * as S from './Nav.styled';
 
 interface IProps {
   isOpen: boolean;
-  toggleDrawer: () => void;
+  closeDrawer: () => void;
 }
-const Nav = ({ isOpen, toggleDrawer }: IProps) => {
+const Nav = ({ isOpen, closeDrawer }: IProps) => {
   return (
     <S.Nav isOpen={isOpen}>
-      <Navlink toggleDrawer={toggleDrawer} to='/'>
+      <Navlink closeDrawer={closeDrawer} to='/'>
         Inicio
       </Navlink>
-      <Navlink toggleDrawer={toggleDrawer} to='/sobre-mi'>
+      <Navlink closeDrawer={closeDrawer} to='/sobre-mi'>
         Sobre mí
       </Navlink>
-      <Navlink toggleDrawer={toggleDrawer} to='/experiencia'>
+      <Navlink closeDrawer={closeDrawer} to='/experiencia'>
         Experiencia
       </Navlink>
-      <Navlink toggleDrawer={toggleDrawer} to='/proyectos'>
+      <Navlink closeDrawer={closeDrawer} to='/proyectos'>
         Proyectos
       </Navlink>
       <DownloadCVButton />

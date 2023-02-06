@@ -2,12 +2,12 @@ import * as S from './Navlink.styled';
 
 interface IProps {
   to: string;
-  toggleDrawer: () => void;
+  closeDrawer: () => void;
   children: React.ReactNode;
 }
-const Navlink = ({ to, children, toggleDrawer }: IProps) => {
+const Navlink = ({ to, children, closeDrawer }: IProps) => {
   return (
-    <S.Navlink to={to} onClick={toggleDrawer}>
+    <S.Navlink to={to} onClick={closeDrawer}>
       {children}
     </S.Navlink>
   );

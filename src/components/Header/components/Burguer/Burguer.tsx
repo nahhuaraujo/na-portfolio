@@ -1,11 +1,11 @@
 import * as S from './Burguer.styled';
 
 interface IProps {
-  toggleDrawer: () => void;
+  openDrawer: () => void;
 }
-const Burguer = ({ toggleDrawer }: IProps) => {
+const Burguer = ({ openDrawer }: IProps) => {
   return (
-    <S.Burguer onClick={toggleDrawer}>
+    <S.Burguer onClick={openDrawer}>
       <div>
         <span></span>
         <span></span>

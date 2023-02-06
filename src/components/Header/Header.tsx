@@ -5,16 +5,20 @@ import * as S from './Header.styled';
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleDrawer = () => {
-    setIsOpen(isOpen => !isOpen);
+  const openDrawer = () => {
+    setIsOpen(true);
+  };
+
+  const closeDrawer = () => {
+    setIsOpen(false);
   };
 
   return (
     <S.Header>
       <Logo />
-      <Nav isOpen={isOpen} toggleDrawer={toggleDrawer} />
-      <Burguer toggleDrawer={toggleDrawer} />
-      {isOpen && <S.Backdrop onClick={toggleDrawer} />}
+      <Nav isOpen={isOpen} closeDrawer={closeDrawer} />
+      <Burguer openDrawer={openDrawer} />
+      {isOpen && <S.Backdrop onClick={closeDrawer} />}
     </S.Header>
   );
 };
