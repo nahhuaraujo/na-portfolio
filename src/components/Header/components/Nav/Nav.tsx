@@ -20,7 +20,7 @@ const Nav = ({ isOpen, closeDrawer }: IProps) => {
       <Navlink closeDrawer={closeDrawer} to='/proyectos'>
         Proyectos
       </Navlink>
-      <DownloadCVButton />
+      <DownloadCVButton closeDrawer={closeDrawer} />
     </S.Nav>
   );
 };
