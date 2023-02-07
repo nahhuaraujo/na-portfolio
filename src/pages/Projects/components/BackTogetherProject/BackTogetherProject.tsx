@@ -14,8 +14,7 @@ const BackTogetherProject = () => {
       </Illustration>
       <Caption>
         <span>BackTogether</span> surgió de la <span>necesidad</span> de establecer un <span>portal</span> a través del
-        cual los usuarios puedan <span>reportar</span> a sus
-        <span>mascotas</span> cuando éstas se <span>pierden</span>.
+        cual los usuarios puedan <span>reportar</span> a sus <span>mascotas</span> cuando éstas se <span>pierden</span>.
       </Caption>
     </S.BackTogetherProject>
   );

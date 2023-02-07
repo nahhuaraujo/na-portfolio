@@ -6,7 +6,7 @@ interface IProps {
 const DownloadCVButton = ({ closeDrawer }: IProps) => {
   return (
     <S.DownloadCVButton
-      href={'https://drive.google.com/file/d/1dc7q8P8rIZnej4gn7-15Mt_9gGLBHkIk/view?usp=share_link'}
+      href={'https://drive.google.com/file/d/1tbTiJSJ2A-RSf4Npn29VkYvxbpcsdBnT/view'}
       role='button'
       download
       target='_blank'
