@@ -50,7 +50,7 @@ export const section_style = css`
 
 export const page_style = css`
   width: 100vw;
-  padding: 4rem 1rem 0;
+  padding-top: 4rem;
   display: flex;
   gap: 6rem;
   justify-content: center;
