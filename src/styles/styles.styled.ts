@@ -3,9 +3,12 @@ import { css } from 'styled-components';
 export const yellow_100_value = '#feffe1';
 
 export const font_size_100_value = '1rem';
-export const font_size_200_value = '2rem';
-export const font_size_300_value = '3rem';
-export const font_size_400_value = '4rem';
+export const font_size_200_value = '1.5rem';
+export const font_size_300_value = '2rem';
+export const font_size_400_value = '2.5rem';
+export const font_size_500_value = '3rem';
+export const font_size_600_value = '3.5rem';
+export const font_size_700_value = '4rem';
 
 export const navlink_style = css`
   padding: 0.5rem 1rem;
@@ -41,7 +44,7 @@ export const section_style = css`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 
   @media (width < 1024px) {
     flex-direction: column;
@@ -49,10 +52,10 @@ export const section_style = css`
 `;
 
 export const page_style = css`
-  width: 100vw;
+  padding: 0 1rem;
   padding-top: 4rem;
   display: flex;
-  gap: 6rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
 `;

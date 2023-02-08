@@ -3,23 +3,19 @@ import * as S from './Presentation.styled';
 const Presentation = () => {
   return (
     <S.Presentation>
-      <p>
-        <span>Nahuel Araujo</span>
-      </p>
-      <p>
-        Desarrollador <span>ReactJS</span>
-      </p>
-      <p>
+      <S.Title>Nahuel Araujo</S.Title>
+      <S.Subtitle>
+        Desarrollador <span>ReactJS</span> <br />
         Diseñador <span>UX/UI</span>
-      </p>
-      <span>Pasión por el código y el diseño</span>
-      <button
+      </S.Subtitle>
+      <S.Lead>Pasión por el código y el diseño</S.Lead>
+      <S.CallToAction
         onClick={() => {
           console.log('To Google forms!');
         }}
       >
         Contactame
-      </button>
+      </S.CallToAction>
     </S.Presentation>
   );
 };

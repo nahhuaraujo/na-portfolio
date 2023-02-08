@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   width: 100%;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   background-color: black;
   display: flex;
   gap: 2rem;
