@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Header = styled.header`
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: black;
   display: flex;
   gap: 2rem;
@@ -19,5 +19,4 @@ export const Backdrop = styled.div`
   width: 100%;
   height: 100vh;
   z-index: 50;
-  cursor: pointer;
 `;

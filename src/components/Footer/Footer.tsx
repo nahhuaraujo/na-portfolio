@@ -1,7 +1,11 @@
 import * as S from './Footer.styled';
 
 const Footer = () => {
-  return <S.Footer>Sobre mí - Experiencia - Proyectos - Descargar CV</S.Footer>;
+  return (
+    <S.Footer>
+      <span>By Nahuel Araujo</span>
+    </S.Footer>
+  );
 };
 
 export default Footer;

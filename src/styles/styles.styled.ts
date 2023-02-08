@@ -52,8 +52,7 @@ export const section_style = css`
 `;
 
 export const page_style = css`
-  padding: 0 1rem;
-  padding-top: 4rem;
+  padding: 2rem 1rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
