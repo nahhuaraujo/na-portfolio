@@ -11,7 +11,7 @@ const SkyGalProject = () => {
         para dar forma a ésta aplicación dedicada a <span>compartir</span> sus fotos de un <span>modo virtual</span>.
       </Caption>
       <Illustration>
-        <a href='https://sky-gal.netlify.app' title='Open SkyGal app' target='_blank' rel='noopener noreferrer'>
+        <a href='https://sky-gal.netlify.app' title='Abrir SkyGal' target='_blank' rel='noopener noreferrer'>
           <img src={SkyGalGallery} alt='SkyGal' width={300} />
         </a>
       </Illustration>

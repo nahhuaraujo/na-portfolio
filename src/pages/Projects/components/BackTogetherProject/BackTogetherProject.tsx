@@ -6,7 +6,7 @@ const BackTogetherProject = () => {
   return (
     <S.BackTogetherProject>
       <Illustration>
-        <a href='https://back-together.netlify.app' title='Open SkyGal app' target='_blank' rel='noopener noreferrer'>
+        <a href='https://back-together.netlify.app' title='Abrir SkyGal' target='_blank' rel='noopener noreferrer'>
           <img src={BackTogether} alt='BackTogether' title='Open BackTogether app' width={300} />
         </a>
       </Illustration>

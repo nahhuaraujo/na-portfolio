@@ -1,9 +1,11 @@
 import * as S from './Footer.styled';
+import { LinkGroup, Sign } from './components';
 
 const Footer = () => {
   return (
     <S.Footer>
-      <span>Codeado y diseñado por Nahuel Araujo</span>
+      <LinkGroup />
+      <Sign />
     </S.Footer>
   );
 };
