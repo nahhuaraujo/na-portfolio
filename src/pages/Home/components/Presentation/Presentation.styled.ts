@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { font_size_100_value, font_size_200_value, font_size_400_value, yellow_100_value } from '../../../../styles';
+import { font_size_100_value, font_size_200_value, font_size_500_value, yellow_100_value } from '../../../../styles';
 
 export const Presentation = styled.section`
   width: fit-content;
@@ -7,7 +7,7 @@ export const Presentation = styled.section`
 
 export const Title = styled.p`
   padding-bottom: 1rem;
-  font-size: ${font_size_400_value};
+  font-size: ${font_size_500_value};
   font-weight: bold;
   text-decoration: underline;
 `;

@@ -3,7 +3,7 @@ import * as S from './Footer.styled';
 const Footer = () => {
   return (
     <S.Footer>
-      <span>By Nahuel Araujo</span>
+      <span>Codeado y diseñado por Nahuel Araujo</span>
     </S.Footer>
   );
 };
