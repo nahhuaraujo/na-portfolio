@@ -1,6 +1,8 @@
 import * as S from './Presentation.styled';
+import { useNavigate } from 'react-router-dom';
 
 const Presentation = () => {
+  const navigate = useNavigate();
   return (
     <S.Presentation>
       <S.Title>Nahuel Araujo</S.Title>
@@ -11,7 +13,7 @@ const Presentation = () => {
       <S.Lead>Pasión por el código y el diseño</S.Lead>
       <S.CallToAction
         onClick={() => {
-          console.log('To Google forms!');
+          window.open('https://forms.gle/sdAQ1UiU6PJ7SZvf7', '_blank');
         }}
       >
         Contactame
