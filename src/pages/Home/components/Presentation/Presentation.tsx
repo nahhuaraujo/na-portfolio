@@ -1,8 +1,6 @@
 import * as S from './Presentation.styled';
-import { useNavigate } from 'react-router-dom';
 
 const Presentation = () => {
-  const navigate = useNavigate();
   return (
     <S.Presentation>
       <S.Title>Nahuel Araujo</S.Title>
