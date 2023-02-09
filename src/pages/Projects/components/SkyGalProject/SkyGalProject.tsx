@@ -12,7 +12,7 @@ const SkyGalProject = () => {
       </Caption>
       <Illustration>
         <a href='https://sky-gal.netlify.app' title='Open SkyGal app' target='_blank' rel='noopener noreferrer'>
-          <img src={SkyGalGallery} alt='' width={300} />
+          <img src={SkyGalGallery} alt='SkyGal' width={300} />
         </a>
       </Illustration>
     </S.SkyGalProject>
