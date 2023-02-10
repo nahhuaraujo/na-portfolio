@@ -13,8 +13,8 @@ const Objective = () => {
         </svg>
       </Illustration>
       <Caption>
-        Actualmente busco ser parte de un <span>proyecto desafiante</span> que me invite a ir <span>más allá</span> de
-        mis límites para seguir <span>creciendo</span> como <span>persona</span> y <span>profesional</span>.
+        Actualmente busco ser parte de un <span>proyecto desafiante</span> que me invite a expandir mis capacidades
+        laborales y seguir <span>creciendo</span> como <span>persona</span> y <span>profesional</span>.
       </Caption>
     </S.Objective>
   );
