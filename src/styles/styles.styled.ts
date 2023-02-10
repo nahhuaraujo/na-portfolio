@@ -74,7 +74,6 @@ export const drawer_style = css`
 `;
 
 export const fade_slide_in_left = css`
-  z-index: -100;
   animation: fade-slide-in-left 1000ms cubic-bezier(0.05, -0.01, 0, 1.01);
   @keyframes fade-slide-in-left {
     0% {
@@ -125,7 +124,6 @@ export const fade_slide_in_left = css`
 `;
 
 export const fade_slide_in_right = css`
-  z-index: -100;
   animation: fade-slide-in-right 1000ms cubic-bezier(0.05, -0.01, 0, 1.01);
   @keyframes fade-slide-in-right {
     0% {

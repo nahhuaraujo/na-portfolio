@@ -9,6 +9,7 @@ export const Header = styled.header`
   justify-content: space-between;
   position: fixed;
   top: 0;
+  z-index: 100;
 `;
 
 export const Backdrop = styled.div`
