@@ -8,10 +8,10 @@ const Experience = () => {
   }, []);
   return (
     <S.Experience>
-      <JavaExperience />
-      <FrontendLearning />
-      <UILearning />
       <ReactExperience />
+      <UILearning />
+      <FrontendLearning />
+      <JavaExperience />
     </S.Experience>
   );
 };

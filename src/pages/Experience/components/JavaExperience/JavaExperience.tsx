@@ -5,9 +5,9 @@ const JavaExperience = () => {
   return (
     <S.JavaExperience>
       <Caption align='right'>
-        Comencé mi carrera como desarrollador del lado del <span>backend</span>, acumulando{' '}
+        Mi primer trabajo como desarrollador fue hace <span>4 años</span> en el que acumulé{' '}
         <span>1 año y 7 meses de experiencia</span> utilizando <span>Java</span> como lenguaje y <span>OOP</span> como
-        paradigma.
+        paradigma desarrollando <span>RESTful APIs</span>.
       </Caption>
       <Illustration>
         <svg width='300' height='310' viewBox='0 0 300 310' fill='none' xmlns='http://www.w3.org/2000/svg'>

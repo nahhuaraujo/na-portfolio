@@ -57,6 +57,7 @@ export const page_style = css`
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 `;
 
 export const drawer_style = css`
@@ -70,4 +71,106 @@ export const drawer_style = css`
   position: fixed;
   top: 0;
   right: 0;
+`;
+
+export const fade_slide_in_left = css`
+  z-index: -100;
+  animation: fade-slide-in-left 1000ms cubic-bezier(0.05, -0.01, 0, 1.01);
+  @keyframes fade-slide-in-left {
+    0% {
+      transform: translateX(-110%);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    55% {
+      opacity: 0.4;
+    }
+    60% {
+      opacity: 0.5;
+    }
+    65% {
+      opacity: 0.6;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0.75;
+    }
+    85% {
+      opacity: 0.8;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+`;
+
+export const fade_slide_in_right = css`
+  z-index: -100;
+  animation: fade-slide-in-right 1000ms cubic-bezier(0.05, -0.01, 0, 1.01);
+  @keyframes fade-slide-in-right {
+    0% {
+      transform: translateX(110%);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0.2;
+    }
+    40% {
+      opacity: 0.25;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    55% {
+      opacity: 0.4;
+    }
+    60% {
+      opacity: 0.5;
+    }
+    65% {
+      opacity: 0.6;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    80% {
+      opacity: 0.75;
+    }
+    85% {
+      opacity: 0.8;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
 `;

@@ -1,8 +1,15 @@
 import styled from 'styled-components';
-import { font_size_100_value, font_size_200_value, font_size_500_value, yellow_100_value } from '../../../../styles';
+import {
+  fade_slide_in_right,
+  font_size_100_value,
+  font_size_200_value,
+  font_size_500_value,
+  yellow_100_value,
+} from '../../../../styles';
 
 export const Presentation = styled.section`
   width: fit-content;
+  ${fade_slide_in_right};
 `;
 
 export const Title = styled.p`

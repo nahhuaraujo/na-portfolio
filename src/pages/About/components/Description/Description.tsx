@@ -1,5 +1,5 @@
-import * as S from './Description.styled';
 import { Caption, Illustration } from '../../../../components';
+import * as S from './Description.styled';
 
 const Description = () => {
   return (

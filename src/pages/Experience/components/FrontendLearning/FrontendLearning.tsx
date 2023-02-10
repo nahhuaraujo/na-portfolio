@@ -13,8 +13,9 @@ const FrontendLearning = () => {
         </svg>
       </Illustration>
       <Caption>
-        Durante éste período inicial, estudié tecnologías del <span>lado del cliente</span> como <span>HTML</span>,{' '}
-        <span>CSS</span>, y <span>JavaScript</span>, desarrollando un gusto especial por ellas.
+        Actualmente, <span>HTML</span>, <span>CSS</span> y <span>JavaScript</span> son tecnologías que me{' '}
+        <span>apasionan</span>, pero mi camino en la programación <span>no comenzó de éste modo</span>, sino del lado
+        del <span>backend</span>.
       </Caption>
     </S.FrontendLearning>
   );
